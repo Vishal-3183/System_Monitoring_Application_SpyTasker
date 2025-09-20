@@ -1,0 +1,55 @@
+QWidget {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 14px; /* Applies to general widgets */
+}
+
+QPushButton {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+QTableWidget {
+    background-color: #ffffff;
+    alternate-background-color: #f2f2f2;
+    color: #000000;
+    gridline-color: #ccc;
+    selection-background-color: #0078d7;
+    selection-color: #ffffff;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    border-radius: 6px;
+}
+
+QTableWidget::item:hover {
+    background-color: #e0e0e0;
+}
+
+QHeaderView::section {
+    background-color: #f0f0f0;
+    color: #000000;
+    padding: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+
+QProgressBar {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #f9f9f9;
+    color: #000000;
+    height: 20px;
+    font-size: 12px;
+}
+
+QProgressBar::chunk {
+    background-color: #0078d7;
+    width: 20px;
+    margin: 0.5px;
+    border-radius: 5px;
+}

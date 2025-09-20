@@ -1,0 +1,19 @@
+<!-- <RCC>
+    <qresource prefix="/">
+        <file>icons/home.png</file>
+        <file>icons/limiter.png</file>
+        <file>icons/theme.png</file>
+        <file>styles/dark.qss</file>
+        <file>styles/light.qss</file>
+    </qresource>
+</RCC> -->
+<RCC>
+    <qresource prefix="/">
+        <file>icons/home.png</file>
+        <file>icons/limiter.png</file>
+        <file>icons/theme.png</file>
+        <file>styles/dark.qss</file>
+        <file>styles/light.qss</file>
+        <file>logo/logo.png</file> 
+    </qresource>
+</RCC>
