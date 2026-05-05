@@ -295,8 +295,8 @@ void AuthenticatorPage::sendAlertEmail(int attempts)
         return;
     }
 
-    QString fromEmail = "vishalsharma3rdac@gmail.com";
-    QString appPassword = "tuyq mulb llpk cooi";
+    QString fromEmail = "";
+    QString appPassword = "";
 
     EmailSender sender(fromEmail, appPassword);
     QString subject = QString("Spy_Tasker Alert: Multiple Failed Login Attempts");
